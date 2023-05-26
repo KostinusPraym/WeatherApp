@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+
+    <title>Weather</title>
+  </head>
+
+  <body>
+    <div class="root">
+      <img src="./img/loader.gif" alt="" class="loader" />
+    </div>
+    <div id="popup" class="popup">
+      <form id="form" action="#" class="form">
+        <label class="label-input" for="city">Type city :</label>
+        <input
+          id="city"
+          type="text"
+          placeholder="Minsk / Минск"
+          class="city"
+          autofocus
+          required
+        />
+        <button type="submit" class="button">Поиск</button>
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
